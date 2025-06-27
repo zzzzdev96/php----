@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: my-php-bot
+    env: docker
+    plan: free
+    region: oregon
+    dockerfilePath: ./Dockerfile
+    buildCommand: ""
+    startCommand: ""
